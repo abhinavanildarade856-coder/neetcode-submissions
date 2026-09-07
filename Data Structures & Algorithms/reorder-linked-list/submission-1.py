@@ -6,8 +6,7 @@
 
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
-        if not head:
-            return
+
 
         nodes = []
         cur = head
